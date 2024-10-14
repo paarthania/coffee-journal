@@ -1,0 +1,22 @@
+{
+    "name": "Coffee Journal",
+    "short_name": "CoffeeJournal",
+    "description": "A coffee journal for my loved one.",
+    "icons": [
+      {
+        "src": "./icons/latte-art-192.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "./icons/latte-art-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+  }
+  

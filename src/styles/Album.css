@@ -1,0 +1,33 @@
+.album {
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin: 20px 0; 
+    width: 90%;
+    max-width: 93%; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .album-title {
+    font-size: 28px;
+    color: #4a148c; 
+    margin-bottom: 10px; 
+    text-align: left; 
+  }
+  
+  .no-entries-message {
+    color: #888; 
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .album-list {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  .album-list li {
+    margin-bottom: 15px;
+  }
+  

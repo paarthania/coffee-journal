@@ -1,0 +1,64 @@
+.entry-detail {
+    background-color: #ffffff; 
+    border-radius: 12px; 
+    padding: 20px; 
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 600px;  
+    width: 90%; 
+    position: relative; 
+  }
+  
+  .back-button {
+    background-color: #4a148c; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 0 9px; 
+    cursor: pointer; 
+    margin-bottom: 20px;
+    transition: background-color 0.3s; 
+    margin-right: 260px;
+    font-size: 29px;
+  }
+  
+  .back-button:hover {
+    background-color: #7b1fa2; 
+  }
+  
+  .entry-detail-title {
+    font-size: 28px; 
+    color: #4a148c; 
+    margin: 10px 0; 
+  }
+  
+  .entry-detail-rating {
+    font-size: 20px; 
+    color: #333; 
+  }
+  
+  .entry-detail-city,
+  .entry-detail-note,
+  .entry-detail-notes {
+    font-size: 18px; 
+    color: #555; 
+    margin: 5px 0 1px 20px;
+    text-align: left;
+  }
+  
+  .delete-button-detail {
+    background-color: #ff1744; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px;
+    cursor: pointer; 
+    margin-top: 35px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+  }
+  
+  .delete-button:hover {
+    background-color: #f50057; 
+  }
+  

@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-function App() {
+import App from "./App";
+function MainApp() {
   return (
     <div>
-      <h1>Welcome to My Simple React Page!</h1>
-      <p>This is a minimal React app, created without CRA.</p>
+      <App></App>
     </div>
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<MainApp />, document.getElementById("root"));
