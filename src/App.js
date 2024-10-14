@@ -8,6 +8,7 @@ import {
 import Album from "./components/Album";
 import AddEntry from "./components/AddEntry";
 import EntryDetail from "./components/EntryDetail";
+import Settings from "./components/Settings";
 
 import "./App.css";
 
@@ -83,6 +84,7 @@ const App = () => {
               />
             }
           />
+          <Route path="/settings" element={<Settings />} />
         </Routes>
       </div>
     </Router>
@@ -113,6 +115,23 @@ const MainContent = ({
         deleteEntry={(index) => deleteEntry("bean", index)}
         navigateToDetail={(index) => navigate(`/beans/${index}`)}
       />
+      <button
+        style={{
+          backgroundColor: "#4a148c",
+          color: "white",
+          border: "none",
+          borderRadius: "5px",
+          padding: "9px 9px 9px 9px",
+          maxWidth: "120px",
+          cursor: "pointer",
+          margin: "40px 0 20px 210px",
+          fontWeight: "500",
+          transition: "background-color 0.3s",
+        }}
+        onClick={() => navigate("/settings")}
+      >
+        App Settings
+      </button>{" "}
     </>
   );
 };

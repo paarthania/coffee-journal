@@ -5,7 +5,7 @@ const Entry = ({ entry, deleteEntry, navigateToDetail }) => {
   return (
     <li className="entry" onClick={navigateToDetail}>
       <p className="entry-text">
-        {entry.name || entry.brand} - {entry.rating} ⭐
+        {entry.name || entry.brand} <strong>-</strong> {entry.rating} ⭐
       </p>
       <button
         className="delete-button"
