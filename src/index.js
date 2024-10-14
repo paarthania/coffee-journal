@@ -4,7 +4,7 @@ import App from "./App";
 function MainApp() {
   return (
     <div>
-      <App></App>
+      <App />
     </div>
   );
 }

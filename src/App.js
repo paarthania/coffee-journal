@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   useNavigate,
@@ -96,7 +96,7 @@ const MainContent = ({
   coffeeBeans,
   deleteEntry,
 }) => {
-  const navigate = useNavigate(); // Use navigate here
+  const navigate = useNavigate();
 
   return (
     <>
